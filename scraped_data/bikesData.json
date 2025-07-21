@@ -1,0 +1,22 @@
+[
+  {
+    "modelname": "Honda CBR500R",
+    "price": "550000",
+    "launchDate": "Oct 2025"
+  },
+  {
+    "modelname": "Honda CB500F",
+    "price": "500000",
+    "launchDate": "Oct 2025"
+  },
+  {
+    "modelname": "Honda Activa 7G",
+    "price": "79000",
+    "launchDate": "Oct 2025"
+  },
+  {
+    "modelname": "Honda CL500 Scrambler",
+    "price": "600000",
+    "launchDate": "Dec 2025"
+  }
+]
