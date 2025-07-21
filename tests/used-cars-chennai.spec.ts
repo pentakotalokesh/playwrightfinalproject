@@ -25,7 +25,8 @@ test.describe("Used cars", () => {
     //filter cars by popular models
     filteredObjectsCars = await usedCarsObject.filterCarsByPopularModels();
     //save data to json file
-      await saveToJson(filteredObjectsCars, "scraped_data/carsList.json");
+    await saveToJson(filteredObjectsCars, "scraped_data/carsList.json");
+    //completed
   });
   test("Take screenshot of car models section", async ({ page }) => {
     const usedCarsObject = new UsedCars(page);

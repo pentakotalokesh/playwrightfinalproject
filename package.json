@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test":"npx playwright test"
+    "test": "npx playwright test"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +12,7 @@
   "type": "commonjs",
   "devDependencies": {
     "@playwright/test": "^1.54.1",
-    "@types/node": "^24.0.14"
+    "@types/node": "^24.0.14",
+    "allure-playwright": "^3.3.2"
   }
 }

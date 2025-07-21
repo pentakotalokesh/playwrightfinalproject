@@ -51,26 +51,118 @@
       {
         "model_name": "Maruti Swift 2014-2021 Maruti Swift VXI Optional",
         "price": "495000"
+      },
+      {
+        "model_name": "Maruti Swift 2014-2021 Maruti Swift AMT ZXI Plus",
+        "price": "628000"
+      },
+      {
+        "model_name": "Maruti Swift 2014-2021 Maruti Swift ZXI BSIV",
+        "price": "750000"
+      },
+      {
+        "model_name": "Maruti Swift 2014-2021 Maruti Swift AMT ZXI Plus",
+        "price": "613000"
+      },
+      {
+        "model_name": "Maruti Swift 2010-2014 Maruti Swift ZDi",
+        "price": "455000"
+      },
+      {
+        "model_name": "Maruti Swift 2014-2021 Maruti Swift VDI",
+        "price": "495000"
+      },
+      {
+        "model_name": "Maruti Swift 2014-2021 Maruti Swift VDI BSIV",
+        "price": "475000"
+      },
+      {
+        "model_name": "Maruti Swift 2014-2021 Maruti Swift AMT ZXI",
+        "price": "797000"
+      },
+      {
+        "model_name": "Maruti Swift 2010-2014 Maruti Swift ZXI",
+        "price": "480000"
+      },
+      {
+        "model_name": "Maruti Swift 2014-2021 Maruti Swift AMT ZXI",
+        "price": "493000"
+      },
+      {
+        "model_name": "Maruti Swift 2014-2021 Maruti Swift VXI",
+        "price": "560000"
+      },
+      {
+        "model_name": "Maruti Swift 2010-2014 Maruti Swift ZXI",
+        "price": "520000"
+      },
+      {
+        "model_name": "Maruti Swift 2014-2021 Maruti Swift AMT VXI",
+        "price": "490000"
+      },
+      {
+        "model_name": "Maruti Swift 2021-2024 Maruti Swift VXI",
+        "price": "750000"
+      },
+      {
+        "model_name": "Maruti Swift 2010-2014 Maruti Swift VXI",
+        "price": "497000"
+      },
+      {
+        "model_name": "Maruti Swift 2014-2021 Maruti Swift AMT ZXI",
+        "price": "468000"
+      },
+      {
+        "model_name": "Maruti Swift 2021-2024 Maruti Swift ZXI Plus AMT",
+        "price": "661000"
+      },
+      {
+        "model_name": "Maruti Swift 2014-2021 Maruti Swift LXI",
+        "price": "530000"
+      },
+      {
+        "model_name": "Maruti Swift 2014-2021 Maruti Swift VDI",
+        "price": "494000"
+      },
+      {
+        "model_name": "Maruti Swift 2010-2014 Maruti Swift ZDi",
+        "price": "383000"
+      },
+      {
+        "model_name": "Maruti Swift 2010-2014 Maruti Swift VXI",
+        "price": "590000"
+      },
+      {
+        "model_name": "Maruti Swift 2014-2021 Maruti Swift LXI",
+        "price": "510000"
+      },
+      {
+        "model_name": "Maruti Swift 2014-2021 Maruti Swift AMT ZDI Plus",
+        "price": "750000"
+      },
+      {
+        "model_name": "Maruti Swift 2010-2014 Maruti Swift VDI",
+        "price": "400000"
+      },
+      {
+        "model_name": "Maruti Swift 2021-2024 Maruti Swift VXI AMT BSVI",
+        "price": "650000"
       }
     ]
   },
   {
     "Hyundai I10": [
       {
-        "model_name": "Hyundai i10 Hyundai i10 Sportz",
-        "price": "340000"
-      },
-      {
         "model_name": "Hyundai i10 Hyundai i10 Magna",
         "price": "360000"
       },
       {
-        "model_name": "Hyundai i10 2007-2010 Hyundai i10 Magna 1.2",
-        "price": "265000"
+        "model_name": "Hyundai i10 Hyundai i10 Sportz",
+        "price": "340000"
       },
       {
-        "model_name": "Hyundai i10 Hyundai i10 Era",
-        "price": "240000"
+        "model_name": "Hyundai i10 2007-2010 Hyundai i10 Magna 1.2",
+        "price": "265000"
       },
       {
         "model_name": "Hyundai i10 Hyundai i10 Magna",
@@ -79,6 +171,10 @@
       {
         "model_name": "Hyundai i10 Hyundai i10 Sportz AT",
         "price": "330000"
+      },
+      {
+        "model_name": "Hyundai i10 Hyundai i10 Era",
+        "price": "240000"
       },
       {
         "model_name": "Hyundai i10 2007-2010 Hyundai i10 Magna 1.2",
@@ -98,15 +194,15 @@
       },
       {
         "model_name": "Hyundai i10 Hyundai i10 Era",
+        "price": "400000"
+      },
+      {
+        "model_name": "Hyundai i10 Hyundai i10 Era",
         "price": "300000"
       },
       {
         "model_name": "Hyundai i10 Hyundai i10 Sportz",
         "price": "235000"
-      },
-      {
-        "model_name": "Hyundai i10 Hyundai i10 Era",
-        "price": "400000"
       },
       {
         "model_name": "Hyundai i10 2007-2010 Hyundai i10 Magna 1.2",
@@ -119,6 +215,10 @@
       {
         "model_name": "Hyundai Santro Xing Hyundai Santro Xing XO eRLX Euro II",
         "price": "185000"
+      },
+      {
+        "model_name": "Hyundai Santro Xing Hyundai Santro Xing GLS",
+        "price": "200000"
       },
       {
         "model_name": "Hyundai Santro Xing Hyundai Santro Xing ABS",
@@ -151,10 +251,6 @@
       {
         "model_name": "Honda City 2008-2011 Honda City 1.5 V MT Exclusive",
         "price": "690000"
-      },
-      {
-        "model_name": "Honda City 2015-2017 Honda City i VTEC SV",
-        "price": "550000"
       },
       {
         "model_name": "Honda City 2020-2023 Honda City V CVT",
@@ -223,6 +319,58 @@
       {
         "model_name": "Honda City 4th Generation Honda City SV MT",
         "price": "530000"
+      },
+      {
+        "model_name": "Honda City 2014-2015 Honda City i VTEC V",
+        "price": "550000"
+      },
+      {
+        "model_name": "Honda City 2008-2011 Honda City 1.5 V AT",
+        "price": "395000"
+      },
+      {
+        "model_name": "Honda City 2020-2023 Honda City VX CVT",
+        "price": "1117048"
+      },
+      {
+        "model_name": "Honda City 4th Generation Honda City V MT",
+        "price": "910000"
+      },
+      {
+        "model_name": "Honda City 2015-2017 Honda City i VTEC CVT SV",
+        "price": "520000"
+      },
+      {
+        "model_name": "Honda City 2015-2017 Honda City i VTEC SV",
+        "price": "550000"
+      },
+      {
+        "model_name": "Honda City 2020-2023 Honda City VX MT",
+        "price": "913000"
+      },
+      {
+        "model_name": "Honda City 2015-2017 Honda City i VTEC SV",
+        "price": "550000"
+      },
+      {
+        "model_name": "Honda City 2014-2015 Honda City i VTEC E",
+        "price": "540000"
+      },
+      {
+        "model_name": "Honda City 2015-2017 Honda City i VTEC V",
+        "price": "410000"
+      },
+      {
+        "model_name": "Honda City 4th Generation Honda City i-DTEC ZX",
+        "price": "800000"
+      },
+      {
+        "model_name": "Honda City 2011-2013 Honda City V MT",
+        "price": "260000"
+      },
+      {
+        "model_name": "Honda City 4th Generation Honda City i-VTEC V",
+        "price": "799000"
       }
     ]
   },
