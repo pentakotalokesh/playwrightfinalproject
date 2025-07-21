@@ -20,9 +20,10 @@ pipeline {
       }
     }
   }
-  post {
-    always {
-      archiveArtifacts artifacts: 'playwright-report/**', allowEmptyArchive: true
+ post {
+  always {
+    archiveArtifacts artifacts: 'playwright-report/**', allowEmptyArchive: true
+    catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
       publishHTML(target: [
         reportName: 'Playwright Report',
         reportDir: 'playwright-report',
@@ -30,4 +31,6 @@ pipeline {
       ])
     }
   }
+}
+
 }
