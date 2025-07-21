@@ -51,74 +51,22 @@
       {
         "model_name": "Maruti Swift 2014-2021 Maruti Swift VXI Optional",
         "price": "495000"
-      },
-      {
-        "model_name": "Maruti Swift 2014-2021 Maruti Swift AMT ZXI Plus",
-        "price": "628000"
-      },
-      {
-        "model_name": "Maruti Swift 2014-2021 Maruti Swift ZXI BSIV",
-        "price": "750000"
-      },
-      {
-        "model_name": "Maruti Swift 2014-2021 Maruti Swift AMT ZXI Plus",
-        "price": "613000"
-      },
-      {
-        "model_name": "Maruti Swift 2010-2014 Maruti Swift ZDi",
-        "price": "455000"
-      },
-      {
-        "model_name": "Maruti Swift 2014-2021 Maruti Swift VDI",
-        "price": "495000"
-      },
-      {
-        "model_name": "Maruti Swift 2014-2021 Maruti Swift VDI BSIV",
-        "price": "475000"
-      },
-      {
-        "model_name": "Maruti Swift 2014-2021 Maruti Swift AMT ZXI",
-        "price": "797000"
-      },
-      {
-        "model_name": "Maruti Swift 2010-2014 Maruti Swift ZXI",
-        "price": "480000"
-      },
-      {
-        "model_name": "Maruti Swift 2014-2021 Maruti Swift AMT ZXI",
-        "price": "493000"
-      },
-      {
-        "model_name": "Maruti Swift 2014-2021 Maruti Swift VXI",
-        "price": "560000"
-      },
-      {
-        "model_name": "Maruti Swift 2010-2014 Maruti Swift ZXI",
-        "price": "520000"
-      },
-      {
-        "model_name": "Maruti Swift 2010-2014 Maruti Swift VXI",
-        "price": "497000"
       }
     ]
   },
   {
     "Hyundai I10": [
       {
-        "model_name": "Hyundai i10 Hyundai i10 Magna",
-        "price": "360000"
-      },
-      {
         "model_name": "Hyundai i10 Hyundai i10 Sportz",
         "price": "340000"
       },
       {
-        "model_name": "Hyundai i10 2007-2010 Hyundai i10 Magna 1.2",
-        "price": "265000"
+        "model_name": "Hyundai i10 Hyundai i10 Magna",
+        "price": "360000"
       },
       {
         "model_name": "Hyundai i10 2007-2010 Hyundai i10 Magna 1.2",
-        "price": "175000"
+        "price": "265000"
       },
       {
         "model_name": "Hyundai i10 Hyundai i10 Era",
@@ -131,6 +79,10 @@
       {
         "model_name": "Hyundai i10 Hyundai i10 Sportz AT",
         "price": "330000"
+      },
+      {
+        "model_name": "Hyundai i10 2007-2010 Hyundai i10 Magna 1.2",
+        "price": "175000"
       },
       {
         "model_name": "Hyundai i10 Hyundai i10 Sportz 1.1L",
@@ -181,16 +133,12 @@
         "price": "877633"
       },
       {
-        "model_name": "Honda City 4th Generation Honda City i-VTEC CVT VX",
-        "price": "759858"
-      },
-      {
-        "model_name": "Honda City 2020-2023 Honda City ZX CVT",
-        "price": "1490000"
-      },
-      {
         "model_name": "Honda City 2020-2023 Honda City V MT",
         "price": "1050000"
+      },
+      {
+        "model_name": "Honda City 4th Generation Honda City i-VTEC CVT VX",
+        "price": "759858"
       },
       {
         "model_name": "Honda City 4th Generation Honda City V CVT",
@@ -271,6 +219,10 @@
       {
         "model_name": "Honda City ZX 2005-2008 Honda City CVT",
         "price": "960000"
+      },
+      {
+        "model_name": "Honda City 4th Generation Honda City SV MT",
+        "price": "530000"
       }
     ]
   },

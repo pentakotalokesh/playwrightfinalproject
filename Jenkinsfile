@@ -1,35 +1,39 @@
 pipeline {
-    agent any
-    environment{
-        NODE_ENV = 'test'
+  agent any
+  tools {
+    nodejs 'NodeJS 23' // Match your configured NodeJS version
+  }
+  stages {
+    stage('Checkout') {
+      steps {
+        git url: 'https://github.com/your-username/your-repo.git', branch: 'main'
+      }
     }
-    tools{
-        nodejs "Node 23"
+    stage('Install Dependencies') {
+      steps {
+        sh 'npm ci'
+        ssh '''
+if [ ! -d ~/.cache/ms-playwright ]; then
+  npx playwright install --with-deps
+fi
+'''
+
+      }
     }
-    stages{
-        stage('Clone Repo'){
-            steps{
-                git branch:'main', url:'https://github.com/pentakotalokesh/playwrightfinalproject.git'
-            }
-        }
-        stage('Install Dependencies'){
-            steps{
-                sh 'npm install'
-            }
-        }
-        stage('Run Tests'){
-            steps{
-                sh 'npx playwright install'
-                sg 'npx playwright test'
-            }
-        }
+    stage('Run Tests') {
+      steps {
+        sh 'npx playwright test --reporter=html'
+      }
     }
-    post{
-        always {
-            echo 'Pipeline execution complete'
-        }
-        failure{
-            echo 'Build failed!'
-        }
+  }
+  post {
+    always {
+      archiveArtifacts artifacts: 'playwright-report/**', allowEmptyArchive: true
+      publishHTML(target: [
+        reportName: 'Playwright Report',
+        reportDir: 'playwright-report',
+        reportFiles: 'index.html'
+      ])
     }
+  }
 }
