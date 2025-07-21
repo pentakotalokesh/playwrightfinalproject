@@ -12,12 +12,7 @@ pipeline {
     stage('Install Dependencies') {
       steps {
         sh 'npm ci'
-        ssh '''
-if [ ! -d ~/.cache/ms-playwright ]; then
-  npx playwright install --with-deps
-fi
-'''
-
+        sh 'npx playwright install --with-deps'
       }
     }
     stage('Run Tests') {
