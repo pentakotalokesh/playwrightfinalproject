@@ -18,6 +18,7 @@ pipeline {
           npm ci
           npx playwright install
           npm install -D allure-playwright
+          npm install -g allure-commandline --save-dev
         '''
       }
     }
@@ -27,6 +28,7 @@ pipeline {
         // Run Playwright tests with Allure reporter and generate static HTML
         sh '''
           npx playwright test --reporter=allure-playwright
+          
           allure generate allure-results --clean -o allure-report
         '''
       }
