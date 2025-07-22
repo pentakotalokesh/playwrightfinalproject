@@ -16,7 +16,7 @@ pipeline {
         // Install node dependencies and required reporting tools
         sh '''
           npm ci
-          npx playwright install --with-deps
+          sudo npx playwright install --with-deps
           npm install -D allure-playwright
         '''
       }
