@@ -22,7 +22,7 @@ export default defineConfig({
   /* Retry on CI only */
   retries: 3,
   /* Opt out of parallel tests on CI. */
-  workers: 2,
+  workers: 3,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: [["line"], ["allure-playwright"]],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
@@ -31,7 +31,8 @@ export default defineConfig({
     // baseURL: 'http://localhost:3000',
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
-    trace: "on",
+    trace: "retain-on-failure",
+    screenshot: "only-on-failure",
   },
 
   /* Configure projects for major browsers */

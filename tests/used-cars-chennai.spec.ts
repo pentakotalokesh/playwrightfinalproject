@@ -4,7 +4,7 @@ import { saveToJson } from "../utils/fileHelper";
 
 let filteredObjectsCars: Array<object>;
 
-test.describe("Used cars", () => {
+test.describe("Used cars in chennai", () => {   
   test("Go to Used Cars page", async ({ page }) => {
     const usedCarsObject = new UsedCars(page);
     await usedCarsObject.navigateToUsedCars();
