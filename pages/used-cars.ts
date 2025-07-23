@@ -24,7 +24,7 @@ export class UsedCars extends BasePage {
   }
   async getPopularModels() {
     for (let i = 0; i < (await this.listPopularBrands.count()); i++) {
-      console.log(await this.listPopularBrands.nth(i).textContent());
+      // console.log(await this.listPopularBrands.nth(i).textContent());
     }
   }
   async filterCarsByPopularModels() {
@@ -65,7 +65,7 @@ export class UsedCars extends BasePage {
       await this.listPopularBrands.nth(i).locator("label").click();
     }
     //   console.log(await this.listPopularBrands.count());
-    console.log(JSON.stringify(result, null, 2));
+    // console.log(JSON.stringify(result, null, 2));
     // saveJsonData(result, "src/outputData/usedCars.json");
     return result;
   }

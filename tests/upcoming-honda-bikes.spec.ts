@@ -20,13 +20,13 @@ test.describe("Upcoming Honda Bikes Under 4 Lakhs", () => {
     await bikesPage.filterHondaBikes();
     //get filtered bikes in array
     filteredHondaBikes = await bikesPage.getFilteredBikes();
-    console.log(filteredHondaBikes);
+    // console.log(filteredHondaBikes); debugging
     //save to file as json data
     await saveToJson(filteredHondaBikes, "scraped_data/bikesData.json");
     //filter less than 4 Lakhs
     priceFiltered = await bikesPage.filterHondaBikesByPrice();
     await saveToJson(priceFiltered, "scraped_data/bikesLessthan4Lakhs.json");
-    console.log(priceFiltered);
+    // console.log(priceFiltered); for debbuging
   });
   test("Verify launch dates", async ({ page }) => {
     await page.goto("https://www.zigwheels.com/upcoming-honda-bikes");

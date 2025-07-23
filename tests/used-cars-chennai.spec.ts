@@ -42,6 +42,6 @@ test.describe("Used cars in chennai", () => {
       path: "screenshots/popular-car-models.png",
     });
 
-    console.log("📸 Screenshot saved: screenshots/popular-car-models.png");
+    // console.log("📸 Screenshot saved: screenshots/popular-car-models.png"); debugging
   });
 });
