@@ -24,7 +24,7 @@ pipeline {
     stage('Run Tests') {
       steps {
         sh '''
-          npx playwright test --reporter=allure-playwright
+          npx playwright test
         '''
       }
     }
