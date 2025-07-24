@@ -1,7 +1,22 @@
 [
   {
+    "modelname": "Honda Shine 100 DX",
+    "price": "72000",
+    "launchDate": "Jul 2025"
+  },
+  {
+    "modelname": "Honda CB125 Hornet",
+    "price": "100000",
+    "launchDate": "Jul 2025"
+  },
+  {
     "modelname": "Honda Activa 7G",
     "price": "79000",
     "launchDate": "Oct 2025"
+  },
+  {
+    "modelname": "",
+    "price": null,
+    "launchDate": ""
   }
 ]

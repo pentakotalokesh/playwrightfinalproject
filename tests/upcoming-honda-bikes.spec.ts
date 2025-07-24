@@ -6,7 +6,9 @@ let filteredHondaBikes: Array<object>;
 let priceFiltered: Array<object>;
 
 test.describe("Upcoming Honda Bikes Under 4 Lakhs", () => {
-  test("Navigating to upcoming Bikes Page of Honda", async ({ page }) => {
+  test("Navigating to upcoming Bikes Page of Honda", async ({
+    page,
+  }, testInfo) => {
     const bikesPage = new UpcomingHondaBikesPage(page);
     await bikesPage.navigateToUpcomingBikes();
     await bikesPage.filterHondaBikes();
@@ -38,9 +40,11 @@ test.describe("Upcoming Honda Bikes Under 4 Lakhs", () => {
     const images = page.locator(".lazy_image.i-b.c-p");
     expect(await images.count()).toBeGreaterThan(0);
   });
-  test("Capture screenshot of listing", async ({ page }) => {
+  test("Capture screenshot of listing", async ({ page }, testInfo) => {
     await page.goto("https://www.zigwheels.com/upcoming-honda-bikes");
-    await page.screenshot({ path: "screenshots/upcoming-bikes.png" });
+    await page.screenshot({
+      path: "screenshots/upcoming-bikes.png",
+    });
   });
   //check for jenkins
 });
